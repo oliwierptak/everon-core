@@ -1,0 +1,28 @@
+{
+  "name": "everon/core",
+  "description": "Everon Core",
+  "type": "library",
+  "license": "MIT",
+  "version": "0.5",
+  "authors": [{
+    "name": "Oliwier Ptak",
+    "email": "EveronFramework@gmail.com"
+  }],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Everon\\Component\\Core\\": "src/",
+      "Everon\\Component\\Core\\Tests\\Unit\\": "tests/unit/"
+    },
+    "exclude-from-classmap": [
+      "/tests/"
+    ]
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "mockery/mockery": "dev-master"
+  }
+}
