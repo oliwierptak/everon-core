@@ -13,13 +13,10 @@
     "psr-4": {
       "Everon\\Component\\Core\\": "src/",
       "Everon\\Component\\Core\\Tests\\Unit\\": "tests/unit/"
-    },
-    "exclude-from-classmap": [
-      "/tests/"
-    ]
+    }
   },
   "require": {
-    "php": ">=7.0"
+    "php": ">=5.6"
   },
   "require-dev": {
     "phpunit/phpunit": "*",
