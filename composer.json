@@ -1,6 +1,6 @@
 {
   "name": "everon/core",
-  "description": "Everon Core",
+  "description": "Everon Core Component",
   "type": "library",
   "license": "MIT",
   "version": "0.5",
